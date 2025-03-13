@@ -39,6 +39,31 @@
         text-align: center;
         padding: 50px 20px;
       }
+      .members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .member-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        width: 200px;
+        transition: transform 0.3s ease, background 0.3s ease;
+      }
+      .member-card:hover {
+        transform: scale(1.05);
+        background: rgba(255, 255, 255, 0.2);
+      }
+      .member-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+      }
       button {
         padding: 10px 20px;
         font-size: 16px;
@@ -59,19 +84,40 @@
       <h1>Chào mừng đến với Trang Chủ!</h1>
       <nav>
         <a href="#">Trang Chủ</a>
-        <a href="/Nhom14/students/congquy.html">Nguyễn Công Quý</a>
-        <a href="/Nhom14/students/hongvi.html">Nguyễn Thị Hồng Vi</a>
-        <a href="/Nhom14/students/minhtri.html">Nguyễn Minh Trí</a>
-        <a href="/Nhom14/students/NguyenXuanHuy.html">Nguyễn Xuân Huy</a>
-        <a href="/Nhom14/students/PhanVuBang.html">Phan Vũ Bằng</a>
       </nav>
     </header>
     <div class="content">
-      <h2>Khám phá những điều thú vị</h2>
-      <p>
-        Đây là nơi để bạn tìm hiểu và kết nối với chúng tôi. Cùng khám phá nhé!
-      </p>
-      <button>Khám Phá Ngay</button>
+      <h2>Thành Viên Nhóm 14</h2>
+      <div class="members">
+        <div class="member-card">
+          <img src="../assets/images/quy.jpg" alt="Nguyễn Công Quý" />
+          <h3>Nguyễn Công Quý</h3>
+          <a href="../students/congquy.html">Xem Trang</a>
+        </div>
+        <div class="member-card">
+          <img src="../assets/images/avatar.png" alt="Nguyễn Thị Hồng Vi" />
+          <h3>Nguyễn Thị Hồng Vi</h3>
+          <a href="../students/hongvi.html">Xem Trang</a>
+        </div>
+        <div class="member-card">
+          <img
+            src="https://scontent.fsgn5-7.fna.fbcdn.net/v/t39.30808-6/480958832_2066037817177543_6935476313645788003_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHoLOgggtXLXQqmJzvbdxJeJS9mS8ULU-slL2ZLxQtT6yNJK1ENMubFwyOUQmpPrngjs73JO_s25Lxu5QH9QcVa&_nc_ohc=eXn9S7HBp3EQ7kNvgFeAn3Y&_nc_oc=AdhWcrM98NoyD4GEIJDxCnq48xfdhjhsyesLS73thPHfzu980tXmcwQHpW32WbUuy6cRIadhCVf2lZLLIwwT-xju&_nc_zt=23&_nc_ht=scontent.fsgn5-7.fna&_nc_gid=AbjpeiTISr6ea-QnSy8VGr4&oh=00_AYH9fbCxSN8UGfNy_AsaAbcYGbWYfY7BwHqdiQG8fZbTsQ&oe=67D87508"
+            alt="Nguyễn Minh Trí"
+          />
+          <h3>Nguyễn Minh Trí</h3>
+          <a href="../students/minhtri.html">Xem Trang</a>
+        </div>
+        <div class="member-card">
+          <img src="../assets/images/huy.jpg" alt="Nguyễn Xuân Huy" />
+          <h3>Nguyễn Xuân Huy</h3>
+          <a href="../students/NguyenXuanHuy.html">Xem Trang</a>
+        </div>
+        <div class="member-card">
+          <img src="../assets/images/Bang_ava.jpg" alt="Phan Vũ Bằng" />
+          <h3>Phan Vũ Bằng</h3>
+          <a href="../students/PhanVuBang.html">Xem Trang</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
