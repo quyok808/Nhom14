@@ -1,0 +1,102 @@
+/* Định dạng chung */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e7dc; /* Nền pastel */
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #B5EAD7; /* Xanh lá pastel */
+    color: white;
+    padding: 60px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 15px 0 5px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Thanh điều hướng */
+nav {
+    background: #ffb6c1; /* Hồng pastel */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff6b81;
+}
+
+/* Định dạng section */
+section {
+    padding: 50px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Màu sắc pastel cho từng phần */
+.about { background: #feca57; } /* Vàng pastel */
+.education { background: #ff9ff3; } /* Tím pastel */
+.experience { background: #54a0ff; color: white; } /* Xanh dương pastel */
+.projects { background: #1dd1a1; color: white; } /* Xanh lá cây pastel */
+.skills { background: #ff6b6b; color: white; } /* Đỏ pastel */
+.certifications { background: #48dbfb; color: white; } /* Xanh nhạt pastel */
+.future { background: #f368e0; color: white; } /* Hồng đậm pastel */
+.contact { background: #a29bfe; color: white; } /* Tím nhạt pastel */
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Liên hệ */
+.contact a {
+    color: #fffa65;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    color: #ff9ff3;
+    text-decoration: underline;
+}

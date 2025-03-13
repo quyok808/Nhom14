@@ -1,0 +1,141 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+/* Style cho ảnh đại diện */
+#personal-info img {
+    width: 250px; /* Điều chỉnh kích thước ảnh */
+    height: 250px;
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi resize */
+    display: block; /* Loại bỏ khoảng trắng thừa dưới ảnh */
+    margin: 0 auto; /* Căn giữa ảnh */
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Màu nền sáng hơn */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Màu nền tối hơn */
+}
+
+/* Style cho ảnh đại diện */
+.card-img-top {
+    width: 100%; /* Ảnh lấp đầy card */
+    height: 250px; /* Chiều cao cố định */
+    object-fit: cover; /* Ảnh không bị méo */
+    border-radius: 10px;
+}
+
+/* Khoảng cách giữa các card */
+.card {
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.8s ease-in-out;
+
+}
+
+/* Hiệu ứng hover cho nút */
+.btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8d210 !important; /* Màu vàng sáng */
+    transition: 0.3s;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
